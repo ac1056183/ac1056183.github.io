@@ -1,0 +1,228 @@
+html,
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #707070;
+  word-spacing: 2px;
+}
+h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #414141;
+}
+.btn-primary {
+  background-color: #003399;
+  background-image: none;
+  border: none;
+}
+.navbar-default {
+  background-color: initial;
+  border: inherit;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #414141;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #8e8e8e;
+}
+.collapsing,
+.collapse.in {
+  background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+a.zapsaNav {
+  position: relative;
+}
+.jobNumber {
+  background: url("https://www.zap.lu/img/job_nbr_dark.png") no-repeat;
+  display: block;
+  height: 13px;
+  width: 13px;
+  top: 26px;
+  right: 0px;
+  position: absolute;
+}
+@media screen and (max-width: 767px) {
+  .jobNumber {
+    display: inline-block;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+.zapsaButton {
+  background-color: #003399;
+  color: white;
+  padding: 10px 20px;
+}
+.zapsaButton:hover {
+  color: white;
+}
+.zapsaHeadsection {
+  height: 714px;
+  background-color: #F2F4F6;
+  background-image: url('https://www.zap.lu/img/frontpage_header.jpg');
+  background-position: bottom center;
+}
+@media screen and (max-width: 767px) {
+  .zapsaHeadsection {
+    height: 520px;
+    background-size: cover;
+  }
+}
+.zapsaHeadsection .container {
+  padding: 0px 20px;
+}
+.zapsaHeadsection .zapsaHeadsectionHeader {
+  padding-top: 30px;
+}
+.zapsaHeadsection .zapsaHeadsectionHeader .zapsaNav {
+  color: white;
+  text-align: right;
+}
+@media screen and (max-width: 480px) {
+  .zapsaHeadsection .zapsaHeadsectionHeader .zapsaNav {
+    margin-bottom: 10px;
+  }
+}
+.container.zapsaHeadsectionTitle {
+  padding-top: 25px;
+}
+.container.zapsaHeadsectionTitle h1 {
+  text-align: center;
+  color: #003399;
+  font-weight: 100;
+  font-size: 3.4rem ;
+  line-height: 1;
+}
+@media screen and (max-width: 767px) {
+  .container.zapsaHeadsectionTitle h1 {
+    font-size: 2.4rem;
+  }
+}
+.zapsaSquareboard {
+  background-color: #f5f5f5;
+  padding: 100px 0px;
+}
+.zapsaSquareboard .container {
+  padding: 0px 20px;
+}
+.zapsaHil {
+  background-color: white;
+  padding: 100px 0px;
+}
+.zapsaHil .container {
+  padding: 0px 20px;
+}
+.zapsaAboutus {
+  background-color: #e4ebf9;
+  color: #8b9cc2;
+  padding: 100px 0px;
+}
+.zapsaAboutus h3 {
+  text-align: center;
+  color: #8b9cc2;
+}
+.zapsaAboutus .container {
+  padding: 0px 20px;
+}
+footer {
+  background-color: #414141;
+  padding: 50px 0px 20px 0px;
+}
+footer .container {
+  padding: 0px 20px;
+}
+footer .zapsaTitle {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+footer .zapsaContent {
+  color: #999999;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+footer .zapsaContent.contact {
+  font-size: 18px;
+}
+footer .zapsaContent a {
+  color: inherit;
+  padding-bottom: 10px;
+  display: block;
+}
+footer .zapsaContent a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .zapsaContent .subTitle {
+  display: block;
+  color: #707070;
+}
+footer .accessPlan {
+  margin-top: 10px;
+}
+footer .accessPlan .mapIcon {
+  display: inline-block;
+  width: 11px;
+  height: 16px;
+  background: url("https://www.zap.lu/img/icon_map.png") no-repeat;
+  margin-right: 5px;
+  margin-bottom: -3px;
+}
+footer .accessPlan a {
+  text-decoration: none;
+}
+#jobPage {
+  background-image: url('https://www.zap.lu/img/banner_jobs_v2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 0px;
+}
+@media screen and (max-width: 767px) {
+  #jobPage {
+    height: 450px;
+  }
+}
+.zapsaJob {
+  padding: 100px 0;
+}
+.zapsaJob .container {
+  padding: 0 20px;
+}
+.jobSkills {
+  margin: 40px 0;
+}
+.jobSkills ul {
+  margin-left: 0;
+}
+.jobSkills ul li {
+  background: url("https://www.zap.lu/img/bullet.png") no-repeat 0px 3px;
+  list-style-type: none;
+  padding-left: 25px;
+}
+.simpleHeader {
+  padding: 60px 0;
+}
